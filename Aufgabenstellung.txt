@@ -30,5 +30,13 @@ Im Konstruktor soll es möglich sein, die Klasse mit allen Werten zu
 füllen, gleichzeitig soll auch nur die ID für das Lesen aus der 
 Datenbank übergeben werden können.
 
+Aufgabe 3:
+Erstellen Sie die zweite Seite im Ablauf "Reklamation erfassen".
+Hier sollen alle restlichen Werte aus Aufgabe 2 gefüllt werden.
+Zum Abschluss soll die Reklamation in die Datenbank abgelegt werden.
+Die Funktion aus Aufgabe 1 darf verwendet werden.
+
+
+
 
 
