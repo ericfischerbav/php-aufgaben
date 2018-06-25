@@ -17,3 +17,14 @@ die Komponenten aus den Produkten sucht, die beschädigt
 sein können.
 
 Aufgabe 2:
+Erstellen Sie eine Klasse, die die komplette Reklamation repräsentiert.
+Hierfür muss die Klasse Informationen über das beschädigte Produkt,
+die entsprechende Komponente, den Reklamateur (mit Name, Anschrift,
+Telefonnummer) sowie das Datum der Reklamation enthalten. Außerdem
+muss die Klasse eine ID der Reklamation enthalten, die auch generiert
+werden soll. Darüber hinaus soll es möglich sein, die Daten der 
+Klasse in die Datenbank zu speichern und die Daten, die die Klasse
+benötigt, aus der Datenbank zu lesen. Zum Lesen wird die ID benötigt.
+Im Konstruktor soll es möglich sein, die Klasse mit allen Werten zu
+füllen, gleichzeitig soll auch nur die ID für das Lesen aus der 
+Datenbank übergeben werden können.
