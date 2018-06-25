@@ -15,6 +15,7 @@
 			if($id == 0) {
 				$this->id = $this->generate_id();
 			} else {
+				$this->id = $id;
 				$this->reklamation_lesen();
 			}
 		}
@@ -39,11 +40,12 @@
 			$row = mysqli_fetch_assoc($result);
 			$this->produkt = $row["produkt"];
 			$this->komponente = $row["komponente"];
-			$this->reklamateur = new Reklamateur();
-			$this->reklamateur->name = row["reklamateur_name"];
-			$this->reklamateur->anschrift = row["reklamateur_anschrift"];
-			$this->reklamateur->tel_num = row["reklamateur_tel"];
+			$this->reklamateur = new Reklamateur(row["reklamateur_name"], row["reklamateur_anschrift"], row["reklamateur_tel"]);
 			$this->datum = row["datum"];
+		}
+		
+		public function get_id() {
+			return $this->id;
 		}
 	}
 	
