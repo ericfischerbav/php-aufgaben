@@ -1,0 +1,19 @@
+Aufgabe 1:
+Gegeben ist folgendes Formular:
+
+<h1>Reklamation erstellen</h1>
+<form action="component_search.php" method="post">
+	<p>Bitte w&auml;hlen Sie Ihr besch&auml;digtes Ger&auml;t aus:</p>
+	<select name="product">
+		<option>Laptop</option>
+		<option>Lampe</option>
+		<option>Rucksack</option>
+	</select>
+	<input type="submit" value="Weiter" />
+</form>
+
+Erstellen Sie eine Funktion, die aus den gegebenen Daten
+die Komponenten aus den Produkten sucht, die beschädigt
+sein können.
+
+Aufgabe 2:
