@@ -30,6 +30,7 @@
 			Name: <input type="text" name="name" /><br/>
 			Anschrift: <input type="text" name="anschrift" /><br/>
 			Rel.Nr.: <input type="text" name="tel" /><br/>
+			<input type="submit" value="Absenden" />
 		</form>
 	</body>
 
